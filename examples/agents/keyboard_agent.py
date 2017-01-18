@@ -18,6 +18,7 @@ human_agent_action = 0
 human_wants_restart = False
 human_sets_pause = False
 
+
 def key_press(key, mod):
     global human_agent_action, human_wants_restart, human_sets_pause
     if key==0xff0d: human_wants_restart = True

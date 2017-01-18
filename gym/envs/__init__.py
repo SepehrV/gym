@@ -1,5 +1,14 @@
 from gym.envs.registration import registry, register, make, spec
 
+#mine
+# ----------------------------------------
+
+register(
+    id='Golf-v0',
+    entry_point='gym.envs.mine:GolfEnv',
+    timestep_limit=100,
+)
+
 # Algorithmic
 # ----------------------------------------
 
